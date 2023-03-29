@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario com Validação</title>
+</head>
+<body>
+    <form action="" autocomplete="off">
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" name="" id="email" placeholder="Digite seu Email" required><br><br>
+            <small id="textEmail"></small>  <!-- imprime menssagens de erro -->
+        </div>
+
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" placeholder="Digite sea Senha" required>
+            <small id="textPassword"></small>
+        </div>
+
+        <button type="submit">Entrar</button><br>
+        <small id="textForm"></small>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
